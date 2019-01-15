@@ -15,5 +15,5 @@ Files
 
 |Files                   |Description                                                                       |
 |------------------------|----------------------------------------------------------------------------------|
-|README                  |This is the file you are currently readin. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
+|README                  |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
 |                        |-    |
