@@ -10,3 +10,10 @@ Folders
 |Activities              |Code to be used in SI sessions                          |
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
+
+Files
+
+|Files                   |Description                                                                       |
+|------------------------|----------------------------------------------------------------------------------|
+|README                  |This is the file you are currently readin. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
+|                        |-    |
