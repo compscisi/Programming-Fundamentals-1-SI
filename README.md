@@ -3,6 +3,9 @@
 # Repository Layout
 Below is the layout for this repository. If you are unfamiliar with github, this is a repository where code is stored. This may be used to access session activities or help with class work.
 
+***NOTE: This repository is still in the process of being setup
+
+
 Folders
 
 |Folder                  |Description                                             |
