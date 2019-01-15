@@ -15,5 +15,5 @@ Files
 
 |Files                   |Description                                                                       |
 |------------------------|----------------------------------------------------------------------------------|
-|README                  |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
-|                        |-    |
+|README.md               |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
+|template.cpp |This is the template used for programs and coding projects  |
