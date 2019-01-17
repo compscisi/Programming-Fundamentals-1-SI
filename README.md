@@ -11,6 +11,7 @@ Folders
 |Folder                  |Description                                             |
 |------------------------|--------------------------------------------------------|
 |Activities              |Code to be used in SI sessions                          |
+|Class Examples          |The .cpp file for examples worked in class              |
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
 
