@@ -1,12 +1,12 @@
 # Programming-Fundamentals-1-SI
 
 # Repository Layout
-Below is the layout for this repository. If you are unfamiliar with github, this is a repository where code is stored. This may be used to access session activities or help with class work.
+###### Below is the layout for this repository. If you are unfamiliar with github, this is a repository where code is stored. This may be used to access session activities or help with class work.
 
-***NOTE: This repository is still in the process of being setup
+*NOTE: This repository is still in the process of being setup*
 
 
-Folders
+### Folders
 
 |Folder                  |Description                                             |
 |------------------------|--------------------------------------------------------|
@@ -15,7 +15,7 @@ Folders
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
 
-Files
+### Files
 
 |Files                   |Description                                                                       |
 |------------------------|----------------------------------------------------------------------------------|
