@@ -1,4 +1,4 @@
-Activity Title: Spot the Error
+# Activity Title: Spot the Error
 
 View the document by following the link:
 https://docs.google.com/document/d/1fDbVOCV2wspYYsa1OaMBkPdR3oAO02Ev0gm-B3pyTh8/edit?usp=sharing
