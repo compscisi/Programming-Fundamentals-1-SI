@@ -20,4 +20,4 @@ Files
 |Files                   |Description                                                                       |
 |------------------------|----------------------------------------------------------------------------------|
 |README.md               |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
-|template.cpp |This is the template used for coding projects  |
+|template.cpp |This is the template used for coding projects in Professor Atkinson's class. |
