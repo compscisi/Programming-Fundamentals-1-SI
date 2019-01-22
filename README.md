@@ -14,6 +14,7 @@
 |Class Examples          |The .cpp file for examples worked in class              |
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
+|Misc.                   |Various files used to set up this repository            |
 
 ### Files
 
@@ -21,3 +22,11 @@
 |------------------------|----------------------------------------------------------------------------------|
 |README.md               |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
 |template.cpp |This is the template used for coding projects in Professor Atkinson's class. |
+
+## Session Times, Location and Contact Info
+![alt text](https://github.com/compscisi/Programming-Fundamentals-1-SI/blob/master/Misc./Flyer%202019SP.png "Flyer for 2019SP")
+
+### Contact via Email
+Email: shelby.king593@my.tccd.edu
+ 
+*I will not respond to emails regarding Supplemental Instruction between the hours of 11:00pm - 9:00am. If you choose to email me late at night, do not expect a reply until early the next morning.*
