@@ -13,34 +13,34 @@ End
 ### Problem 2
 ```
 Begin
-input x, y
-sum = x + y
-print sum
+  input x, y
+  sum = x + y
+  print sum
 End 
 ```
 ### Probelm 3
 ```
 Begin
-input hours, rate
-if hours ≤ 40 then
- pay = hours * rate
-else
- pay = 40 * rate + (hours – 40) * rate * 1.5
-print pay
+  input hours, rate
+  if hours ≤ 40 then
+    pay = hours * rate
+  else
+    pay = 40 * rate + (hours – 40) * rate * 1.5
+    print pay
 End 
 ```
 ### Problem 4
 ```
 Begin
-print “Input 3 numbers: ”
-input a, b, c
-avg = average(a, b, c)
-print “Average is ”, avg
+  print “Input 3 numbers: ”
+  input a, b, c
+  avg = average(a, b, c)
+  print “Average is ”, avg
 End 
 
 Begin Average(a, b, c)
-sum = a + b + c
-avg = sum / 3.0
-return avg
+  sum = a + b + c
+  avg = sum / 3.0
+  return avg
 End 
 ```
