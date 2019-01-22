@@ -26,4 +26,8 @@
 - __DON'T__ request class notes from SI Leader. I am not allowed to give students notes. You wouldn't want my notes anyway - they're taken specifically for session ideas!
 - __DO__ try to attend sessions reguarly. Whether it's once a week or once every two weeks, this is meant to help you guys understand programming!
 
+### Did you know we have a Computer Science club??
+###### Come meet other students who share an interest in computer science!
+First computer science club meeting is __Friday January 25 @ 5:00 P.M. - 6:00 P.M. in NSTU 1504.__ The following dates are the monthly meetings throughout the semester: Jan 25, Feb 22, Mar 22, Apr 19.
+
 The special password is __#SHEKRULEZ__
