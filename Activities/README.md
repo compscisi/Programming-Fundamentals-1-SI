@@ -5,4 +5,4 @@ These are files that we will use for session activities. The table below specifi
 |-----------------|-----------------|
 |01      |22 January 2019  |
 |02      |24 January 2019  |
-|03      |25 January 2019 *not uploaded yet*|
+|03      |25 January 2019 *(not uploaded yet)*|
