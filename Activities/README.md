@@ -1,5 +1,5 @@
 # Folder Layout
-These are files that we will use for session activities. The table below specifies the dates that the sessions were done. Any worksheets will be uploaded to the respective session folder __after__ session is over, labelled "WS - ..." Any worksheets will be set up so that you can fill them out using the activities within that session.
+These are files that we will use for session activities. The table below specifies the dates that the sessions were done. Any worksheets will be uploaded to the respective session folder __after__ session is over, labelled "WS - ..." Any worksheets will be set up so that you can fill them out using the activities within that session or our class lecture slides.
 
 |Session Number  |Date             |
 |-----------------|-----------------|
