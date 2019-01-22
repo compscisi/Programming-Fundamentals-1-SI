@@ -23,10 +23,15 @@
 |README.md               |This is the file you are currently reading. Any folder that has a 'README' file will open up when you access the folder and give a brief description of the folder. |
 |template.cpp |This is the template used for coding projects in Professor Atkinson's class. |
 
-## Session Times, Location and Contact Info
+## Session Times, Location, Contact Info, and Tutoring Lab Times!
 ![alt text](https://github.com/compscisi/Programming-Fundamentals-1-SI/blob/master/Misc./Flyer%202019SP.png "Flyer for 2019SP")
 
 ### Contact via Email
 Email: shelby.king593@my.tccd.edu
  
 *I will not respond to emails regarding Supplemental Instruction between the hours of 11:00pm - 9:00am. If you choose to email me late at night, do not expect a reply until early the next morning.*
+
+### Computer Science Tutoring Lab Location and Hours
+*Did you know we have a computer science tutoring lab???*
+ 
+Our tutoring lab is located in __NTAB 1239__, and is open __Mon-Thurs 8am-10pm, Friday 8am-4pm and Saturday 8am-2pm__. 
