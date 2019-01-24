@@ -1,5 +1,5 @@
 # Activity Title: Coverting Pseudo-code
-###### Below are some bits of Pseudo-code. Use the given note cards to assemble a three dimensional flowchart from each bit of psuedo-code. Start with the first one and see if you can do more.
+###### Below are some bits of Pseudo-code. Use the given note cards to assemble a three dimensional flowchart from each bit of psuedo-code. Start with the first one and see if you can do more. You can do this at home by drawing a flowchart for each bit of psuedo code.
 
 ### Problem 1
 ```
