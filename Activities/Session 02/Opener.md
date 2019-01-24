@@ -5,4 +5,4 @@ Be prepared to share *all* of the following:
 2. One preson you would like to come with you
 3. One item you would take with you
 
-When ready to share, grab [something?]
+This is to help you guys to get to know eachother!
