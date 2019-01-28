@@ -1,5 +1,5 @@
 # Sabotage
-###### Below are links to two google docs. Click the link for your team to type up a sample bit of code, implementing one (or multiple) purposeful errors.
+###### Below are links to two google docs. Click the link for your team to type up a sample bit of code, implementing one (or multiple) purposeful errors. _Warning: it may ask you to sign into gmail - try to sign in with your school account._
 
 ### Team one:
 [Click here!](https://docs.google.com/document/d/1Dx9L5f_xjoB4G8R3o0qCvwei6Qt2TQtQSF-TRlpMr08/edit?usp=sharing)
