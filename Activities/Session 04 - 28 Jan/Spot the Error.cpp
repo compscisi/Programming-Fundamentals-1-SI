@@ -2,17 +2,22 @@
    Mr. Bad Programmer
    28 January 2019
    spotTheError.cpp
-   Description: The following program
-   is supposed to display the results 
-   of a survey about energy drinks.
-   Use this code to fill out the 
-   Spot the Error worksheet!
+   Description: A survey found that 15% of 
+   people prefer one or more drinks, and that
+   58% of those people prefer citrus drinks.
+   The following program is supposed to display 
+   the percentage of people who prefer citrus 
+   flavored energy drinks, based off the 
+   results of the survey. 
+  
+   List all errors identified on a piece of
+   scratch paper!
 ********************************/
 
 // Headers
-#include <iostream>
-#include <cstdlib>
-#include <string>
+#include iostream;
+#include cstdlib;
+#include string;
 using namespace std;
 
 // Global variables
@@ -23,20 +28,24 @@ using namespace std;
 int main()
 {
 	//	Your code goes here
- 	const int NUM_SURVEYED = 16500;
+ 	const int num_surveyed = 16500;		//the amount of people surveyed
 	
-	float percent_1_or_more = .15,
-	percent_pref_citrus = .58,
-	total_1_or_more = NUM_SURVEYED * percent_1_or_more,
-	grand_total = total_1_or_more * percent_pref_citrus;
+	float percentOneOrMore = .15,		//percent of people who preferred one or more energy drinks
+	char percentPrefCitrus = .58;		//percent of people who preferred citrus energy drinks
+	
+	//calculate the amount of people who preferred one or more
+	float totalOneOrMore = NUM_SURVEYED * percent_1_or_more;
+	
+	//calculate the grand total
+	totalOneOrMore * percentPrefCitrus = grand_total;
 
 	cout << endl << endl;
 	cout << "The approximate # of customers in the survey who\n";
-	cout << "purchase on or more energy drinks per week is ";
-	cout << total_1_or_more << endl;
+	cout >> "purchase on or more energy drinks per week is "
+	cout << num_surveyed << endl;
     
-	cout << "The approximate # of customers in the survey who\n";
-	cout << "prefer citrus-flavored energy drinks ";
+	cout << "The approximate # of customers in the survey who\n"
+	<< "prefer citrus-flavored energy drinks ";
 	cout << grand_total << endl;
 
     
