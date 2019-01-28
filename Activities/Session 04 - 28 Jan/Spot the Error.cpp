@@ -32,12 +32,14 @@ int main()
 	
 	float percentOneOrMore = .15,		//percent of people who preferred one or more energy drinks
 	char percentPrefCitrus = .58;		//percent of people who preferred citrus energy drinks
+	int totalOneOrMore;			//the total amount of people who drink one or more energy drinks
+	int grandTotal;				//the total amount of people who prefer citrus energy drinks
 	
 	//calculate the amount of people who preferred one or more
-	float totalOneOrMore = NUM_SURVEYED * percent_1_or_more;
+	float totalOneOrMore = NUM_SURVEYED * percentOneOrMore;
 	
 	//calculate the grand total
-	totalOneOrMore * percentPrefCitrus = grand_total;
+	totalOneOrMore * percentPrefCitrus = grandTotal;
 
 	cout << endl << endl;
 	cout << "The approximate # of customers in the survey who\n";
@@ -46,7 +48,7 @@ int main()
     
 	cout << "The approximate # of customers in the survey who\n"
 	<< "prefer citrus-flavored energy drinks ";
-	cout << grand_total << endl;
+	cout << grandTotal << endl;
 
     
 	//	Make sure we place the end message on a new line
