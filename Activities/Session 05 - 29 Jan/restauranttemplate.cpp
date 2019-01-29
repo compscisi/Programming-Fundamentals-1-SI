@@ -34,10 +34,7 @@ int main()
   totalBill = mealCost + tax + tip; //the total bill
 
   //display results
-	cout << "Meal cost = $";
-	cout << "Tax amount = $";
-	cout << "Tip amount = $";
-	cout << "Total bill = $";
+
 	return 0;
     
 	//	Make sure we place the end message on a new line
