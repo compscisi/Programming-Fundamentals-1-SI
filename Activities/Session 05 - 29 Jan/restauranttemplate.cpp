@@ -22,31 +22,31 @@ int main()
 {
 	//	Your code goes here
   
-  //declare variables
-    double mealCost = 44.50;         //total cost of the meal
-                                     //the dollar amount of the tip
-                                     //the dollar amount of the bill
-    double totalBill;                //amount of the total bill
+	 //declare variables
+ 	 double mealCost = 44.50;         //total cost of the meal
+  	                                 //the dollar amount of the tip
+  	                                 //the dollar amount of the bill
+  	double totalBill;                //amount of the total bill
     
-  //calculations
+  	//calculations
   
   
-  totalBill = mealCost + tax + tip; //the total bill
+  	totalBill = mealCost + tax + tip; //the total bill
 
-  //display results
+	//display results
 
 	return 0;
     
-	//	Make sure we place the end message on a new line
-    cout << endl;
+	//Make sure we place the end message on a new line
+  	cout << endl;
 
-	//	The following is system dependent.  It will only work on Windows
-    system("PAUSE");
+	//The following is system dependent.  It will only work on Windows
+	system("PAUSE");
 
 	/* 
 	// A non-system dependent method is below
 	cout << "Press any key to continue";
 	cin.get();
 	*/
-    return 0;
+	  return 0;
 }
