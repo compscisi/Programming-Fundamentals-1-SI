@@ -4,7 +4,7 @@ sizes of certain datatypes!
 ***************************/
 
 #include <iostream>
-#include <cstlib>
+#include <cstdlib>
 #include <string>
 using namespace std;
 
@@ -15,7 +15,7 @@ int main()
   cout << " bytes.\n";
 
   //the following is a system dependent that only work with windows; DONT TOUCH THIS
-  SYSTEM("PAUSE");
+  system("PAUSE");
   
   //this marks the end of your program
   return 0;
