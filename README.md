@@ -12,6 +12,7 @@
 |------------------------|--------------------------------------------------------|
 |Activities              |Code to be used in SI sessions                          |
 |Class Examples          |The .cpp file for examples worked in class              |
+|Extra Coding Practice   |Template files for extra coding practice. This is if you would like to further practice coding. |
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
 |Misc.                   |Various files used to set up this repository            |
