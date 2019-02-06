@@ -5,6 +5,10 @@ height ((pi)(h)(r)^(2)). Where pi = 3.14159, r
 is the radius of the tank, and h is the height
 of the tank. You will also need to have the user
 input the radius and the height.
+
+NOTE: This is for extra practice. If you would
+like the solution for this program, please
+email me at shelby.king593@my.tccd.edu
 *********************************************/
 
 #include <iostream>
