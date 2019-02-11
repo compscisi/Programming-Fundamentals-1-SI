@@ -16,6 +16,7 @@
 |Helpful Guides          |Guides to help with downloading or navigating software  |
 |Lecture Slides          |PowerPoint slides from lecture                          |
 |Misc.                   |Various files used to set up this repository            |
+|Textbook Readings       |pdf copies of chapters from the textbook                |
 
 ### Files
 
