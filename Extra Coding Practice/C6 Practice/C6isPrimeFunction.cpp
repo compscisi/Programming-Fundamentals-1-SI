@@ -22,7 +22,7 @@ using namespace std;
 
 int main()
 {
-	//main is already complete. Your function should work with the following code.
+		//main is already complete. Your function should work with the following code.
 	int num;		//number being checked
 	bool flag;		//to signal if prime or not
 
@@ -32,15 +32,17 @@ int main()
 
 	flag = isPrime(num);
 
-	if (isPrime == true)
+	if (flag == true)
 	{
 		cout << "The number " << num << " is prime!";
 	}
 
-	else
+	else if (flag == false)
 	{
 		cout << "The number " << num << " is not prime!";
 	}
+	
+	cout << "\n\nGood luck with your maths.";
 	
 	//	Make sure we place the end message on a new line
 	cout << endl;
