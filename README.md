@@ -26,7 +26,16 @@
 |template.cpp |This is the template used for coding projects in Professor Atkinson's class. |
 
 ## Session Times, Location, Contact Info, and Tutoring Lab Times!
-![alt text](https://github.com/compscisi/Programming-Fundamentals-1-SI/blob/master/Misc./Flyer%202019SP.png "Flyer for 2019SP")
+#### Mondays
+2:00pm - 3:00pm in NTAB 1108
+#### Tuesdays
+4:30pm - 5:30pm in NTAB 2226
+#### Thursdays
+1:00pm - 1:50pm in NTAB 2226
+#### Fridays
+3:00pm - 4:00pm in NTAB 1108
+
+*Disclaimer: I am allowed to hold office hours upon appointment. Please email me to set up an appointment. I am able to work with a maxiumum of 2 students for 30 minutes each.*
 
 ### Contact via Email
 Email: shelby.king593@my.tccd.edu
