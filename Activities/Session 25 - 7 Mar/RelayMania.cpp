@@ -22,6 +22,7 @@ int main()
 
 	//display result
 
+	cout << endl;
 	system("PAUSE");
 	return 0;
 }
