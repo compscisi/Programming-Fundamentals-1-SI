@@ -17,7 +17,7 @@ void displayGreater(double area1, double area2);		//displays the greater area
 int main()
 {
 	//variables
-	double tempLength, tempWidth;	  //length of rectangle 1 and rectangle 2
+	double tempLength, tempWidth;	  //temp variables to pass into calcArea
 	double area1, area2;	        	//area of rectangle 1 and rectangle 2
 
 	//get user to input values
