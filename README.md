@@ -49,4 +49,5 @@ Our tutoring lab is located in __NTAB 1239__, and is open __Mon-Thurs 8am-10pm, 
 
 ### Fun Fact
 This is my favorite character from the animated TV series Adventure Time, BMO. You may see animations of him on here from time to time. I try to have fun with this.
+
 ![Dancing BMO](https://thumbs.gfycat.com/AbleFlatFox-small.gif)
