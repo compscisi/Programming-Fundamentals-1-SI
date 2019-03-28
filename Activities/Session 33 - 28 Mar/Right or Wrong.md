@@ -7,7 +7,7 @@ Take a look at the following facts created by students in the last session. Whic
    while (grade >= 60 || grade <= 100) 
    {
       cout << "You pass!";
-      cout << "\nPlease enter another grade."
+      cout << "\nPlease enter another grade: "
       cin >> grade;
    }
    ```
