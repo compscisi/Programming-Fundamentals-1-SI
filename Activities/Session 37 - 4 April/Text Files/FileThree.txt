@@ -1,0 +1,3 @@
+This is the third sample text file
+Here is a randomly generated phrase:
+"An enigma is nothing at all?"

@@ -1,0 +1,3 @@
+This is the second sample text file
+Here is a randomly generated phrase:
+"Two-finger John is a storyteller without equal."
