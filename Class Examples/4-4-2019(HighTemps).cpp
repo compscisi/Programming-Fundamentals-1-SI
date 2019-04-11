@@ -3,6 +3,10 @@
    2 April 2019
    4-2-2019(HighTemps).cpp
    Displays average, max, min for high temps of various months.
+   
+   NOTE: You will need the correct text file (Hightemps2014.txt) loaded into your 
+   project folder, just like you have a .cpp file loaded in your project folder.
+   This text file can be found in the Class Examples folder.
 ********************************/
 
 // Headers
@@ -147,29 +151,125 @@ int loadMonthsTemps(string months[], int temps[][MAX_DAYS], string fileName, int
 	return numMonths;
 }
 
+//calculates and displays average for each month
 void displayAvgTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
+	double average;		//average temp of days in month
+	int total;			//total of all temps in month (accumulator)
+
+	//set up the table header
+	int maxLength = displayHeading("Temperature Averages", "Averages", 8, 10, months, monthCount);
+	cout << setprecision(1) << fixed << showpoint;
+
+	//loop through each month and display a row
+	for (int i = 0; i < monthCount; i++)
+	{
+		cout << setw(maxLength + 1) << left << months[i];
+		total = 0;		//zero out accumulator
+		//loop through temperature of the month
+		for (int j = 0; j < MAX_DAYS; j++)
+		{
+			total += temps[i][j];
+		}
+		average = static_cast<double>(total) / MAX_DAYS;
+		cout << setw(8) << right << average << setw(10) << getTempCondition(static_cast<int>(average))
+			<< endl;
+	}
 }
 
 void displayMaxTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
+	int maxTemp;		//max temp so far
+
+	//set up the table header
+	int maxLength = displayHeading("Temperature Maximums", "Max", 4, 10, months, monthCount);
+
+	// loop through each month and display as a row
+	for (int i = 0; i < monthCount; i++)
+	{
+		//output the name of the month in first column
+		cout << setw(maxLength + 1) << left << months[i];
+		maxTemp = temps[i][0];		//initial temperature
+		for (int j = 1; j < MAX_DAYS; j++)
+		{
+			if (maxTemp < temps[i][j])
+			{
+				maxTemp = temps[i][j];
+			}
+		}	//end of inner loop
+		cout << setw(4) << right << maxTemp << setw(10) << getTempCondition(maxTemp)
+			<< endl;
+	} //end of outer loop
 }
 
 void displayMinTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
+	int minTemp;		//max temp so far
+
+	//set up the table header
+	int maxLength = displayHeading("Temperature Minimums", "Min", 4, 10, months, monthCount);
+
+	// loop through each month and display as a row
+	for (int i = 0; i < monthCount; i++)
+	{
+		//output the name of the month in first column
+		cout << setw(maxLength + 1) << left << months[i];
+		minTemp = temps[i][0];		//initial temperature
+		for (int j = 1; j < MAX_DAYS; j++)
+		{
+			if (minTemp > temps[i][j])
+			{
+				minTemp = temps[i][j];
+			}
+		}	//end of inner loop
+		cout << setw(4) << right << minTemp << setw(10) << getTempCondition(minTemp)
+			<< endl;
+	} //end of outer loop
 }
 
+//return a description of the temperature
 string getTempCondition(int temp)
 {
-	return string();
+	if (temp > 110)
+		return "Heck";
+	else if (temp > 100)
+		return "Scorching";
+	else if (temp > 90)
+		return "Hot";
+	else if (temp > 80)
+		return "Warm";
+	else if (temp > 70)
+		return "Mild";
+	else if (temp > 60)
+		return "Cool";
+	else
+		return "Cold";
 }
 
+//find the longest string in an array of strings 
 int getLongestNameLength(string months[], int monthCount)
 {
-	return 0;
+	int maxLength = 0;
+	for (int i = 0; i < monthCount; i++)
+	{
+		//is it longer
+		if (months[i].length() > maxLength)
+		{
+			maxLength = months[i].length();
+		}
+	}
+	return maxLength;
 }
 
+//displays heading for table
 int displayHeading(string reportTitle, string secondColumnName, int secondColumnWidth, int thirdColumnWidth, string months[], int monthCount)
 {
-	return 0;
+	int maxLength = getLongestNameLength(months, monthCount);
+	if (thirdColumnWidth < 10) thirdColumnWidth = 10;
+	
+	cout << "\n\n" << reportTitle << "\n";
+	cout << setw(maxLength + 1) << left << "Month"
+		<< setw(secondColumnWidth) << right << secondColumnName
+		<< setw(thirdColumnWidth) << "Condition" << endl;
+	return maxLength;
 }
