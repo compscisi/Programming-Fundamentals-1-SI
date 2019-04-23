@@ -8,6 +8,7 @@
 //structure variable, and writing the individual statements necessary.
 
 #include <iostream>
+#include <string>
 using namespace std;
 // Write the structure declaration here to hold the movie data.
 
