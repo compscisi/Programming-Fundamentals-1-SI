@@ -4,6 +4,10 @@
    HighTempsStruct.cpp
    Display average, min, max for high temps
    of various months sorted
+   
+   NOTE: You will need the correct text file (Hightemps2014.txt) loaded into your 
+   project folder, just like you have a .cpp file loaded in your project folder.
+   This text file can be found in the Class Examples folder.
 ********************************/
 
 // Headers
